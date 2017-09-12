@@ -1,0 +1,13 @@
+{
+    "name": "bandev/picker",
+    "require": {
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "intervention/image": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Bruno Coronas Bandeira",
+            "email": "burn@gamersclub.com.br"
+        }
+    ]
+}
