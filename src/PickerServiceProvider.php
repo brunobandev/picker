@@ -13,7 +13,6 @@ class PickerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/../routes/picker.php';
         $this->publishes([
             __DIR__.'/../config/picker.php' => config_path('picker.php'),
         ]);
@@ -26,6 +25,8 @@ class PickerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('bandev-picker', function () {
+            return new Picker();
+        });
     }
 }
