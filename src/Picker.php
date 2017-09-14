@@ -14,7 +14,7 @@ class Picker {
 
     /**
      * Send Image
-     * @param  string $image
+     * @param  string $image base64
      * @param  string $format
      * @param  string $resource
      * @param  int $resourceId
@@ -42,7 +42,7 @@ class Picker {
 
     /**
      * Crop Image
-     * @param  string $image
+     * @param  string $image base64
      * @return object
      */
     private function _cropImage($image)

@@ -1,11 +1,18 @@
 <?php
 
 return [
-    'default' => [
+    'avatar' => [
         'size' => [
             'width' => 200,
-            'height' => 50
+            'height' => 200
         ],
-        'path' => 'default'
+        'service' => 'ms-user'
+    ],
+    'small' => [
+        'size' => [
+            'width' => 300,
+            'height' => 300
+        ],
+        'service' => 'ms-user'
     ]
 ];
