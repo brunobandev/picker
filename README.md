@@ -37,4 +37,12 @@ and register the service provider:
 $app->register(Bandev\Picker\PickerServiceProvider::class);
 ```
 
-**ENJOY**
+add facade in controller:
+```php
+use Picker;
+```
+
+```php
+$imageUrl = Picker::saveImage($request->image, $format = 'avatar', $resource = 'user', $resourceId = 1);
+```
+##### **DONE! ;)**
