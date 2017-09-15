@@ -43,6 +43,6 @@ use Picker;
 ```
 
 ```php
-$imageUrl = Picker::saveImage($request->image, $format = 'avatar', $resource = 'user', $resourceId = 1);
+$imageUrl = Picker::sendImage($request->image, $format = 'avatar', $resource = 'user', $resourceId = 1);
 ```
 ##### **DONE! ;)**
